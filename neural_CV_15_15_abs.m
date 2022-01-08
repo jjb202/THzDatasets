@@ -2,49 +2,49 @@ clc;
 clear all;
 close all;
 %read data change 3d data
-% load rawimage; 
-% [rowNum,colNum]=size(rawimage);
-% 
-% 
-%     for r=1:15
-%          for c=1:15
-%         rawimage_250g(r,c)=rawimage(112-8+r,110-8+c);
-%          end
-%     end
-%     
-% 
-%         absImage=abs(rawimage_250g);
-%         [c,l]=max(absImage);
-%         angleImage=angle(rawimage_250g);
-%    realImage=real(rawimage);
-%    imagImage=imag(rawimage);
-%   save('fact_facula_15_15.mat', 'rawimage_250g');
-%    save(' fact_facula_abs_15_15.mat', 'absImage'); 
-%    save('fact_facula_angle_15_15.mat', 'angleImage');
-%    save('fact_facula_real_15_15.mat', 'realImage');
-%     save('fact_facula_imag_15_15.mat', 'imagImage');
-% 
-%         figure()
-%         imagesc(absImage);
-%         title('intensity');
-%         figure()       
-%         imagesc(angleImage);
-%         title('phase');
-%       figure()
-%       
-%      imagesc(realImage);
-%       title('real');
-%         figure()
-%              
-%      imagesc(imagImage);
-%       title('imag');
+ load rawimage; 
+ [rowNum,colNum]=size(rawimage);
+ 
+ 
+     for r=1:15
+          for c=1:15
+         rawimage_250g(r,c)=rawimage(112-8+r,110-8+c);
+          end
+     end
+     
+ 
+         absImage=abs(rawimage_250g);
+         [c,l]=max(absImage);
+         angleImage=angle(rawimage_250g);
+    realImage=real(rawimage);
+    imagImage=imag(rawimage);
+   save('fact_facula_15_15.mat', 'rawimage_250g');
+    save(' fact_facula_abs_15_15.mat', 'absImage'); 
+    save('fact_facula_angle_15_15.mat', 'angleImage');
+    save('fact_facula_real_15_15.mat', 'realImage');
+     save('fact_facula_imag_15_15.mat', 'imagImage');
+ 
+         figure()
+         imagesc(absImage);
+         title('intensity');
+         figure()       
+         imagesc(angleImage);
+         title('phase');
+       figure()
+       
+      imagesc(realImage);
+       title('real');
+         figure()
+              
+      imagesc(imagImage);
+       title('imag');
 train_data=zeros(64,64,1,6400);
 train_label=zeros(64,64,6400);
 load('fact_facula_15_15.mat')%%%%%15*15
 
     for m=0:9
        for n=1:640
-        %∂¡»°—˘±æ
+        %¬∂√Å√à¬°√ë√π¬±¬æ
         train_data_R=imread(strcat(num2str(m),'_',num2str(n),'.bmp'));%original image 0-255
         
 %          figure()
