@@ -1,9 +1,6 @@
 # THzDatasets
 The training and test THz datasets will be released soon!
 
-DINet model path
-https://github.com/hellogry/THzDatasets/blob/main/basicsr/models/archs/dinet_thz_2.py
-
 train dataset:
 ./basicsr/train_THZ.py -opt options/train/THZ/DINet.yml --launch pytorch
 
