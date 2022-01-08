@@ -12,3 +12,6 @@ code：7b0l
 Test results for the Rain200H dataset.
 link：https://pan.baidu.com/s/1NY_v7dqkuRmqWyFRomH48Q 
 code：eck6 
+Test results for the Rain200L dataset.
+link：https://pan.baidu.com/s/1kl-IKL4O0J_hUxjBvif8vA 
+code：wu5v 
