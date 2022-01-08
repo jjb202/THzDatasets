@@ -1,5 +1,5 @@
 # THzDatasets
-The training and test THz datasets will be released soon!
+The training and testing THz datasets will be released soon!
 
 train dataset:
 ./basicsr/train_THZ.py -opt options/train/THZ/DINet.yml --launch pytorch
