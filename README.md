@@ -1,5 +1,5 @@
 # THzDatasets
-The training and test THz datasets will also be released soon!
+The training and test THz datasets will be released soon!
 
 DINet model path
 https://github.com/hellogry/THzDatasets/blob/main/basicsr/models/archs/dinet_thz_2.py
