@@ -19,3 +19,6 @@ code：eck6
 Test results for the Rain200L dataset.
 link：https://pan.baidu.com/s/1kl-IKL4O0J_hUxjBvif8vA 
 code：wu5v 
+
+matlab code for THZ image generation by the private PSF function
+https://github.com/hellogry/THzDatasets/blob/main/neural_CV_15_15_abs.m
