@@ -109,7 +109,7 @@ class SAM(nn.Module):
         x1 = x1+x
         return x1, img
 
-class HINet(nn.Module):
+class DINet(nn.Module):
 
     def __init__(self, in_chn=3, wf=64, depth=5, relu_slope=0.2, hin_position_left=0, hin_position_right=4):
         super(HINet, self).__init__()
