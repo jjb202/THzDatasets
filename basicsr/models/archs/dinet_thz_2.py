@@ -1,13 +1,3 @@
-'''
-HINet: Half Instance Normalization Network for Image Restoration
-
-@inproceedings{chen2021hinet,
-  title={HINet: Half Instance Normalization Network for Image Restoration},
-  author={Liangyu Chen and Xin Lu and Jie Zhang and Xiaojie Chu and Chengpeng Chen},
-  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops},
-  year={2021}
-}
-'''
 
 import torch
 import torch.nn as nn
