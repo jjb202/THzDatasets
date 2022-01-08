@@ -5,7 +5,7 @@ train dataset:
 ./basicsr/train_THZ.py -opt options/train/THZ/DINet.yml --launch pytorch
 
 test dataset:
-./basicsr/test.py -opt options/test/THZ/DINet.yml
+./basicsr/test.py -opt options/test/THZ/DINet-THZ.yml
 
 Test results for the THZ1800 dataset.
 link：https://pan.baidu.com/s/1gx8E-zctvQTGWTV2crnu6Q 
