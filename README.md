@@ -1,3 +1,5 @@
+Thanks to MPRNet 2021,CBNetV2 2021,HINet 2021,ResNet 2015 and Unet 2015 for their excellent contributions. Our work was based on the above methods.
+
 # THzDatasets
 The training and testing THz datasets will be released soon!
 
