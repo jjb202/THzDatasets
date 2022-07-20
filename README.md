@@ -1,7 +1,8 @@
 Thanks to MPRNet 2021,CBNetV2 2021,HINet 2021,CCNN 2021,ResNet 2015 and Unet 2015 for their excellent contributions. Our work was based on the above methods.
 
-# THzDatasets
-The training and testing THz datasets will be released soon!
+# THzDatasets link:
+https://pan.baidu.com/s/1kEKeKGWWoERiiE1T8hTnvw 
+code：bse2 
 
 train dataset:
 ./basicsr/train_THZ.py -opt options/train/THZ/DINet.yml --launch pytorch
